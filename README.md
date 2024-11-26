@@ -21,6 +21,13 @@ mdtoplx # it will clone PRG1 repository for the demo and start parsing and compi
     target/main.c:1:1: note: ‘FILE’ is defined in header ‘<stdio.h>’; this is probably fixable by adding ‘#include <stdio.h>’
     +++ |+#include <stdio.h>
     ```
+- [ ] Generate default check with basic output validation
+- [ ] Validate all solution files can be compiled
+- [ ] Implement a filter list
+- [ ] Implement a way to not erase modifications
+- [ ] Generate `exo.toml` with parsed exo
+- [ ] Generate `skill.toml` and `course.toml` associated with parsed exos
+- [ ] 
 
 ## Goal
 - [ ] Migrate programming exos in [PRG1 bucket](https://github.com/PRG1-HEIGVD/PRG1_Recueil_Exercices)
