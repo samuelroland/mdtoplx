@@ -1,12 +1,12 @@
-# prgtoplx
-### Migration tool to migrate PRG1 and PRG2 programming exos to PLX TOML files
+# mdtoplx
+### Migration tool to migrate PRG1 and PRG2 Markdown exos to PLX TOML files
 
 **STATUS**: very drafty and not usable for now...
 
 ## Quick try
 ```sh
-cargo install --git https://github.com/samuelroland/prgtoplx
-prgtoplx # it will clone PRG1 repository for the demo and start parsing and compilation
+cargo install --git https://github.com/samuelroland/mdtoplx
+mdtoplx # it will clone PRG1 repository for the demo and start parsing and compilation
 ```
 
 ## TODOs
